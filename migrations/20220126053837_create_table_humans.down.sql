@@ -1,0 +1,2 @@
+ALTER TABLE cats DROP COLUMN human_id;
+DROP TABLE humans;

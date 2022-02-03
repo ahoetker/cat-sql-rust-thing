@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS cats;
+
+CREATE TABLE cats (
+	cat_id INT GENERATED ALWAYS AS IDENTITY,
+	name TEXT NOT NULL,
+	kind TEXT NOT NULL,
+	age INTEGER NOT NULL,
+	sex TEXT NOT NULL,
+	favorite_foods TEXT[] NOT NULL,
+	PRIMARY KEY(cat_id)
+);
+
